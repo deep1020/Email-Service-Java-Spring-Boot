@@ -37,6 +37,7 @@ public class AppController {
 	@PostMapping("/process_register")
 	public String processRegister(User user, HttpServletRequest request) 
 			throws UnsupportedEncodingException, MessagingException {
+
 //		 Check if email already exists:
 		if(userRepository.findByEmail(user.getEmail())!=null){
 			throw new IllegalArgumentException("This email is already registered, please try another email");
