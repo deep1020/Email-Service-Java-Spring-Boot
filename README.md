@@ -1,5 +1,16 @@
 # Email-Service-Java-Spring-Boot
 
+## Features
+- User Authentication: Secure login and registration system.
+- Email Verification: Users receive an email verification link upon registration to confirm their email address.
+- User Management: Admin functionalities to view and manage a list of registered users.
+
+## Tech Stack:
+- Backend: Java, Spring Boot
+- Frontend: Thymeleaf
+- ORM: JPA (Java Persistence API)
+- Database: MySQL
+
 - ## Sign-up Page
 <img width="577" alt="Screenshot 2024-07-30 at 4 44 07 PM" src="https://github.com/user-attachments/assets/d3e9ef0c-4289-4bbb-be18-d162d9154b34">
 
